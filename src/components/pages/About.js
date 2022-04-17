@@ -2,16 +2,11 @@ import React from "react";
 
 export default function About() {
   return (
-    <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
-    </div>
+    <section id="about-me">
+            <article className="content">
+                <h2>About Me</h2>
+                <p>My name is Alan Phelps, and I am currently in the process of becoming a full-stack web-developer through the University of Richmond's Coding Bootcamp program. I have many years of working experience, from selling books to making coffee, from facilitating a high ropes course to teaching Latin. I'm resourceful, inquisitive, and efficient. If you are a good employer looking for a viable candidate for a web-development position, I'm your guy!</p>
+            </article>
+        </section>
   );
 }
