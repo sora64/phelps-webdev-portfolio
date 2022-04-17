@@ -108,7 +108,7 @@ a {
 
 /* Styling for the hero */
 .hero {
-    background-image: url("./Images/IMG_1153.JPG");
+    background-image: url("../../phelps-portfolio-yes-indeed/public/assets/images/IMG_1153.JPG");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
