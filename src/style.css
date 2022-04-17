@@ -20,19 +20,16 @@ body {
 }
 
 /* Styling for the header */
-header {
-    background-color: var(--db);
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 9999;
-}
-
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.5rem; 
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: var(--db);
+    top: 0;
+    z-index: 9999;
 }
 
 .nav-menu {
@@ -78,7 +75,6 @@ header {
     width: 25px;
     height: 3px;
     margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
     background-color: var(--off-white);
 }
 
@@ -109,7 +105,7 @@ a {
 
 /* Styling for the hero */
 .hero {
-    background-image: url("../../phelps-portfolio-yes-indeed/public/images/IMG_1153.JPG");
+    background-image: url("../public/images/IMG_1153.JPG");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

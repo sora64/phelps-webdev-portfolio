@@ -3,7 +3,7 @@ import React from "react";
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <nav className="navbar" id="myTopnav">
-      <a href="/" class="logo">
+      <a href="/" className="logo">
         ALAN PHELPS
       </a>
       <ul className="nav-menu">
@@ -12,7 +12,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             href="#home"
             onClick={() => handlePageChange("Home")}
             className={currentPage === "Home" ? "nav-link active" : "nav-link"}
-            style={{ "font-size": "1.3rem" }}
+            style={{ "fontSize": "1.3rem" }}
           >
             Home
           </a>
@@ -22,7 +22,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             href="#about"
             onClick={() => handlePageChange("About")}
             className={currentPage === "About" ? "nav-link active" : "nav-link"}
-            style={{ "font-size": "1.3rem" }}
+            style={{ "fontSize": "1.3rem" }}
           >
             About
           </a>
@@ -32,7 +32,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             href="#work"
             onClick={() => handlePageChange("Work")}
             className={currentPage === "Work" ? "nav-link active" : "nav-link"}
-            style={{ "font-size": "1.3rem" }}
+            style={{ "fontSize": "1.3rem" }}
           >
             Work
           </a>
@@ -44,7 +44,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             className={
               currentPage === "Resume" ? "nav-link active" : "nav-link"
             }
-            style={{ "font-size": "1.3rem" }}
+            style={{ "fontSize": "1.3rem" }}
           >
             Resume
           </a>
@@ -56,7 +56,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             className={
               currentPage === "Contact" ? "nav-link active" : "nav-link"
             }
-            style={{ "font-size": "1.3rem" }}
+            style={{ "fontSize": "1.3rem" }}
           >
             Contact
           </a>

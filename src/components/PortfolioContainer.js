@@ -27,17 +27,9 @@ export default function PortfolioContainer() {
 
   const handlePageChange = (page) => setCurrentPage(page);
 
-  const closeMenu = () => {
-    setNavbarOpen(false);
-  };
-
   return (
     <div>
-      <NavTabs
-        currentPage={currentPage}
-        handlePageChange={handlePageChange}
-        onClick={() => closeMenu()}
-      />
+      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
     </div>
   );

@@ -9,7 +9,7 @@ root.render(
   <React.StrictMode>
     <App />
     <footer>
-      <h2>Made by Alan Phelps {Date.now}.</h2>
+      <h2>Made by Alan Phelps, 2022.</h2>
     </footer>
   </React.StrictMode>
 );
