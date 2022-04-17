@@ -8,9 +8,6 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
-    <footer>
-      <h2>Made by Alan Phelps, 2022.</h2>
-    </footer>
   </React.StrictMode>
 );
 

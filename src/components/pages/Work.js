@@ -4,7 +4,7 @@ export default function Work() {
   return (
     <section id="work" className="section-alt">
       <article className="content">
-        <h2 className="text-right" style={{ "margin-top": 50 }}>
+        <h2 className="section-header">
           Work
         </h2>
         <div className="projects">

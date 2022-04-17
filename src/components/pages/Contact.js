@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <section id="contact-me">
       <article className="content">
-        <h2 style={{ "margin-top": 50 }}>Contact Me</h2>
+        <h2 className="section-header">Contact</h2>
         <article className="contact-address">
           <h3>Alan Phelps</h3>
           <br />
@@ -12,7 +12,6 @@ export default function Contact() {
           <br />
           <p className="addresses">
             Phone : (252) 796-7552
-            <br />
           </p>
           <br />
           <p className="addresses">

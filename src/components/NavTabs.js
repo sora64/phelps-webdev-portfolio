@@ -11,8 +11,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           <a
             href="#home"
             onClick={() => handlePageChange("Home")}
-            className={currentPage === "Home" ? "nav-link active" : "nav-link"}
-            style={{ "fontSize": "1.3rem" }}
+            className="nav-link"
           >
             Home
           </a>
@@ -21,8 +20,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           <a
             href="#about"
             onClick={() => handlePageChange("About")}
-            className={currentPage === "About" ? "nav-link active" : "nav-link"}
-            style={{ "fontSize": "1.3rem" }}
+            className="nav-link"
           >
             About
           </a>
@@ -31,8 +29,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           <a
             href="#work"
             onClick={() => handlePageChange("Work")}
-            className={currentPage === "Work" ? "nav-link active" : "nav-link"}
-            style={{ "fontSize": "1.3rem" }}
+            className="nav-link"
           >
             Work
           </a>
@@ -41,10 +38,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           <a
             href="#resume"
             onClick={() => handlePageChange("Resume")}
-            className={
-              currentPage === "Resume" ? "nav-link active" : "nav-link"
-            }
-            style={{ "fontSize": "1.3rem" }}
+            className="nav-link"
           >
             Resume
           </a>
@@ -53,10 +47,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           <a
             href="#contact"
             onClick={() => handlePageChange("Contact")}
-            className={
-              currentPage === "Contact" ? "nav-link active" : "nav-link"
-            }
-            style={{ "fontSize": "1.3rem" }}
+            className="nav-link"
           >
             Contact
           </a>

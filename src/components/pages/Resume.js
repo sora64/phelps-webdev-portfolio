@@ -1,19 +1,17 @@
 import React from "react";
 
-export default function About() {
+export default function Resume() {
   return (
-    <section id="about-me">
+    <section id="resume" className="section-alt">
       <article className="content">
-        <h2 style={{ "margin-top": 50 }}>About Me</h2>
-        <p>
-          My name is Alan Phelps, and I am currently in the process of becoming
-          a full-stack web-developer through the University of Richmond's Coding
-          Bootcamp program. I have many years of working experience, from
-          selling books to making coffee, from facilitating a high ropes course
-          to teaching Latin. I'm resourceful, inquisitive, and efficient. If you
-          are a good employer looking for a viable candidate for a
-          web-development position, I'm your guy!
-        </p>
+        <a href="https://docs.google.com/document/d/1CEZw2D5ndJFJqJXz7St1_fmOeJokTfL-jepKGyMavWw/edit?usp=sharing">
+          <h2 className="section-header">Resume</h2>
+        </a>
+        <iframe
+          src="https://docs.google.com/document/d/e/2PACX-1vQ4WB6vaijJYwn0uQKuLC2LpdmEd-RUTxUPvVjVOawJKfDhPWpuWHSy36cMvs9iQAP1D5phm3AljZ05/pub?embedded=true"
+          className="resume"
+          title="myResume"
+        ></iframe>
       </article>
     </section>
   );
