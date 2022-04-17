@@ -253,10 +253,15 @@ a {
   border-radius: 10px;
 }
 
+.form-label {
+  color: var(--off-white);
+}
+
 .form-input {
   border-radius: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
+  padding: 3px;
 }
 
 .form-button {
@@ -265,6 +270,7 @@ a {
   font-weight: bold;
   font-size: 1em;
   margin-top: 20px;
+  padding: 5px;
 }
 
 .contact-address {
@@ -275,10 +281,10 @@ a {
   font-size: 25px;
   padding: 1em;
   margin: 10px auto 3px auto;
-  width: 55%;
+  width: auto;
   background-color: var(--lb);
   border: solid 5px var(--fg);
-  border-radius: 20%;
+  border-radius: 10%;
 }
 
 .contact-address .addresses {

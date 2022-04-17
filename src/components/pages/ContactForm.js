@@ -40,10 +40,10 @@ export default function ContactForm() {
 
   return (
     <section className="form">
-      <h1 data-testid="h1tag">Contact me</h1>
+      <h1 style={{"marginBottom": "10px"}}>Contact me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
-          <label htmlFor="name">Name:</label>
+          <label className="form-label" htmlFor="name">Name: </label>
           <input
             type="text"
             defaultValue={name}
@@ -53,7 +53,7 @@ export default function ContactForm() {
           />
         </div>
         <div>
-          <label htmlFor="email">Email address:</label>
+          <label className="form-label" htmlFor="email">Email address: </label>
           <input
             type="email"
             defaultValue={email}
@@ -63,12 +63,12 @@ export default function ContactForm() {
           />
         </div>
         <div>
-          <label htmlFor="message">Message:</label>
+          <label className="form-label" htmlFor="message">Message: </label>
           <textarea
             name="message"
             defaultValue={message}
             onBlur={handleChange}
-            rows="3"
+            rows="5"
             className="form-input"
           />
         </div>{" "}
