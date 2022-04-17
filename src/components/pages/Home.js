@@ -1,6 +1,8 @@
 import React from "react";
 
 export default function Home() {
+  // document.getElementById("workNav").classList.remove("green-text");
+  // document.getElementById("resumeNav").classList.remove("green-text");
   return (
     <section className="hero">
       <div className="hero-welcome">

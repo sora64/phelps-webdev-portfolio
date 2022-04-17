@@ -1,12 +1,12 @@
 import React from "react";
 
 export default function Work() {
+  document.getElementById("workNav").classList.add("green-text");
+  document.getElementById("resumeNav").classList.remove("green-text");
   return (
     <section id="work" className="section-alt">
       <article className="content">
-        <h2 className="section-header">
-          Work
-        </h2>
+        <h2 className="section-header">Work</h2>
         <div className="projects">
           <a href="https://github.com/sora64/photo-port">
             <img

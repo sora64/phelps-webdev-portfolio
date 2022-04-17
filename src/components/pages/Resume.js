@@ -1,6 +1,8 @@
 import React from "react";
 
 export default function Resume() {
+  document.getElementById("workNav").classList.remove("green-text");
+  document.getElementById("resumeNav").classList.add("green-text");
   return (
     <section id="resume" className="section-alt">
       <article className="content">

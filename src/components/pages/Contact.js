@@ -1,6 +1,8 @@
 import React from "react";
 
 export default function Contact() {
+  document.getElementById("workNav").classList.remove("green-text");
+  document.getElementById("resumeNav").classList.remove("green-text");
   return (
     <section id="contact-me">
       <article className="content">
@@ -10,9 +12,7 @@ export default function Contact() {
           <br />
           <p className="addresses">Mail: P.O. Box 4496, Richmond, VA</p>
           <br />
-          <p className="addresses">
-            Phone : (252) 796-7552
-          </p>
+          <p className="addresses">Phone : (252) 796-7552</p>
           <br />
           <p className="addresses">
             Email: <a href="mailto:phelpsa64@gmail.com">phelpsa64@gmail.com</a>
