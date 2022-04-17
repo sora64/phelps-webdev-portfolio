@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section id="about-me">
       <article className="content">
-        <h2>About Me</h2>
+        <h2 style={{ "margin-top": 50 }}>About Me</h2>
         <p>
           My name is Alan Phelps, and I am currently in the process of becoming
           a full-stack web-developer through the University of Richmond's Coding
