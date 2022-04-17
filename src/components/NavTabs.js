@@ -1,9 +1,8 @@
 import React from "react";
-import { hamburgerF } from "../portfolio";
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <nav class="navbar" id="myTopnav">
+    <nav className="navbar" id="myTopnav">
       <a href="/" class="logo">
         ALAN PHELPS
       </a>
@@ -13,6 +12,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             href="#home"
             onClick={() => handlePageChange("Home")}
             className={currentPage === "Home" ? "nav-link active" : "nav-link"}
+            style={{ "font-size": "1.3rem" }}
           >
             Home
           </a>
@@ -22,6 +22,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             href="#about"
             onClick={() => handlePageChange("About")}
             className={currentPage === "About" ? "nav-link active" : "nav-link"}
+            style={{ "font-size": "1.3rem" }}
           >
             About
           </a>
@@ -31,6 +32,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             href="#work"
             onClick={() => handlePageChange("Work")}
             className={currentPage === "Work" ? "nav-link active" : "nav-link"}
+            style={{ "font-size": "1.3rem" }}
           >
             Work
           </a>
@@ -42,6 +44,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             className={
               currentPage === "Resume" ? "nav-link active" : "nav-link"
             }
+            style={{ "font-size": "1.3rem" }}
           >
             Resume
           </a>
@@ -53,16 +56,12 @@ function NavTabs({ currentPage, handlePageChange }) {
             className={
               currentPage === "Contact" ? "nav-link active" : "nav-link"
             }
+            style={{ "font-size": "1.3rem" }}
           >
             Contact
           </a>
         </li>
       </ul>
-      <a href="javascript:void(0);" className="hamburger" onclick={hamburgerF}>
-        <span className="bar"></span>
-        <span className="bar"></span>
-        <span className="bar"></span>
-      </a>
     </nav>
   );
 }
