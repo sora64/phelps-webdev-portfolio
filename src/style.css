@@ -264,7 +264,8 @@ a {
 }
 
 .contact-address .addresses {
-    font-size: 2rem;
+    font-size: 1.75rem;
+    margin-left: 1.3rem;
 }
 
 /* Styling for the resume section */
