@@ -1,9 +1,10 @@
 import React from "react";
+import { hamburgerF } from "../portfolio";
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <nav class="navbar" id="myTopnav">
-      <a href="index.html" class="logo">
+      <a href="/" class="logo">
         ALAN PHELPS
       </a>
       <ul className="nav-menu">
@@ -57,6 +58,11 @@ function NavTabs({ currentPage, handlePageChange }) {
           </a>
         </li>
       </ul>
+      <a href="javascript:void(0);" className="hamburger" onclick={hamburgerF}>
+        <span className="bar"></span>
+        <span className="bar"></span>
+        <span className="bar"></span>
+      </a>
     </nav>
   );
 }

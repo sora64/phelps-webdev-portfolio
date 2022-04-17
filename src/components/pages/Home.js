@@ -7,7 +7,7 @@ export default function Home() {
         <h2>Welcome!</h2>
         <div className="hero-content">
           <img
-            src="assets/images/IMG_0422.jpeg"
+            src="images/IMG_0422.jpeg"
             alt="Alan smiling in front of the Eiffel Tower in Paris, France."
           />
           <p>
