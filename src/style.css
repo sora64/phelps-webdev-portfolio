@@ -185,7 +185,16 @@ a {
   text-align: right;
 }
 
+.work-instructions {
+  text-align: center;
+  color: var(--off-white)
+}
+
 /* Styling for the work section */
+.wrapper {
+  text-align: center;
+}
+
 .projects {
   display: flex;
   flex-wrap: wrap;
@@ -229,15 +238,6 @@ a {
   height: 300px;
   width: 400px;
   margin: 30px auto 30px auto;
-  top: 27%;
-  left: 0;
-  right: 0;
-}
-
-.lt3AndUp {
-  height: 300px;
-  width: 400px;
-  margin: 30px auto 30px auto;
   top: 42%;
   left: 0;
   right: 0;
@@ -248,6 +248,25 @@ a {
 }
 
 /* Styling for the contact me section */
+.form {
+  border: solid 5px var(--fg);
+  border-radius: 10px;
+}
+
+.form-input {
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form-button {
+  border-radius: 5px;
+  background-color: var(--lg);
+  font-weight: bold;
+  font-size: 1em;
+  margin-top: 20px;
+}
+
 .contact-address {
   display: flex;
   flex-direction: column;

@@ -1,4 +1,5 @@
 import React from "react";
+import ContactForm from "./ContactForm";
 
 export default function Contact() {
   document.getElementById("workNav").classList.remove("green-text");
@@ -7,6 +8,7 @@ export default function Contact() {
     <section id="contact-me">
       <article className="content">
         <h2 className="section-header">Contact</h2>
+        <ContactForm />
         <article className="contact-address">
           <h3>Alan Phelps</h3>
           <br />
