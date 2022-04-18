@@ -1,6 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 
 function NavTabs({ currentPage, handlePageChange }) {
+  const [ focused, setFocused ] = useState(false);
+  let classes = "nav-link";
+  if (focused) {
+    classes="green-text"
+  }
+
   return (
     <nav className="navbar" id="myTopnav">
       <a href="/" className="logo">
@@ -12,18 +18,19 @@ function NavTabs({ currentPage, handlePageChange }) {
             href="#about"
             onClick={() => handlePageChange("About")}
             className="nav-link"
+            onFocus={() => setFocused(false)}
           >
-            About
+            About Me
           </a>
         </li>
         <li className="nav-item">
           <a
             href="#work"
-            onClick={() => handlePageChange("Work")}
-            id="workNav"
+            onClick={() => handlePageChange("Portfolio")}
             className="nav-link"
+            onFocus={() => setFocused(false)}
           >
-            Work
+            Portfolio
           </a>
         </li>
         <li className="nav-item">
@@ -31,7 +38,8 @@ function NavTabs({ currentPage, handlePageChange }) {
             href="#resume"
             onClick={() => handlePageChange("Resume")}
             id="resumeNav"
-            className="nav-link"
+            onFocus={() => setFocused(true)}
+            className={classes}
           >
             Resume
           </a>
@@ -41,6 +49,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             href="#contact"
             onClick={() => handlePageChange("Contact")}
             className="nav-link"
+            onFocus={() => setFocused(false)}
           >
             Contact
           </a>

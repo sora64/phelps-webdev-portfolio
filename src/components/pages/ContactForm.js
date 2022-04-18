@@ -15,7 +15,7 @@ export default function ContactForm() {
       const isValid = validateEmail(e.target.value);
       console.log(isValid);
       if (!isValid) {
-        setErrorMessage("Your email is invalid.");
+        setErrorMessage("A valid email is required.");
       } else {
         setErrorMessage("");
       }

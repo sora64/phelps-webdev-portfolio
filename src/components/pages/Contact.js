@@ -2,12 +2,11 @@ import React from "react";
 import ContactForm from "./ContactForm";
 
 export default function Contact() {
-  document.getElementById("workNav").classList.remove("green-text");
-  document.getElementById("resumeNav").classList.remove("green-text");
   return (
     <section id="contact-me">
       <article className="content">
         <h2 className="section-header">Contact</h2>
+        <br/>
         <ContactForm />
         <article className="contact-address">
           <h3>Alan Phelps</h3>

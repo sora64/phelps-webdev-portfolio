@@ -1,17 +1,20 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import Project from "./Project";
 
 export default function Work() {
-  document.getElementById("workNav").classList.add("green-text");
-  document.getElementById("resumeNav").classList.remove("green-text");
-
   return (
-    <section id="work" className="section-alt">
+    <section id="portfolio" className="section-alt">
       <article className="content">
-        <h2 className="section-header">Work</h2>
-        <h5 className="work-instructions">Click an image to reach the related application at its deployed URL, where applicable. Click on the GitHub icon below an image to visit the related application's GitHub repository.</h5>
-        <div className="projects">
+        <h2 className="section-header">Portfolio</h2>
+        <br />
+        <h5 className="work-instructions">
+          Click an image to reach the related application at its deployed URL,
+          where applicable. Click on the GitHub icon below an image to visit the
+          related application's GitHub repository.
+        </h5>
+        <br />
+        <Project />
+        {/* <div className="projects">
           <div className="wrapper">
             <a href="https://sora64.github.io/photo-port/">
               <img
@@ -460,7 +463,7 @@ export default function Work() {
               </a>
             </p>
           </div>
-        </div>
+        </div> */}
       </article>
     </section>
   );
