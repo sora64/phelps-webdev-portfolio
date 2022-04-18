@@ -14,7 +14,12 @@ export default function Work() {
         </h5>
         <br />
         <Project />
-        {/* <div className="projects">
+      </article>
+    </section>
+  );
+}
+
+/* <div className="projects">
           <div className="wrapper">
             <a href="https://sora64.github.io/photo-port/">
               <img
@@ -463,8 +468,4 @@ export default function Work() {
               </a>
             </p>
           </div>
-        </div> */}
-      </article>
-    </section>
-  );
-}
+        </div> */
