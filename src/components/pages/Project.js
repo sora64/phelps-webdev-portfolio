@@ -22,18 +22,37 @@ export default function Project() {
       deployedUrl: "https://phelps-tech-blog.herokuapp.com/",
       GitHubUrl: "https://github.com/sora64/phelps-tech-blog",
     },
+    {
+      name: "Music You May Like",
+      pic: "musicYouMayLikeScreenshot.png",
+      deployedUrl: "https://sora64.github.io/Music-You-May-Like/",
+      GitHubUrl: "https://github.com/sora64/Music-You-May-Like",
+    },
+    {
+      name: "Note Taker",
+      pic: "noteTakerScreenshot.png",
+      deployedUrl: "https://intense-lake-30149.herokuapp.com/",
+      GitHubUrl: "https://github.com/sora64/phelps-note-taker-challenge",
+    },
+    {
+      name: "Weather Dashboard",
+      pic: "weatherDashboardScreenshot.png",
+      deployedUrl:
+        "https://sora64.github.io/phelps-weather-dashboard-challenge/",
+      GitHubUrl: "https://github.com/sora64/phelps-weather-dashboard-challenge",
+    },
   ];
 
   const projects = projectList.map((project) => (
     <section className="projects">
       <div className="wrapper">
         <div>
-          <div className="link-text">{project.name}</div>
+          <div className="project-title">{project.name}</div>
           <a href={project.deployedUrl}>
             <img
               src={require(`../../../public/images/${project.pic}`)}
               alt={project.name}
-              key={project.index}
+              key={project.name}
               className="project-img"
             />
           </a>

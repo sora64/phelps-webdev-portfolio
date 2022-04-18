@@ -199,10 +199,10 @@ a {
 .projects {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   border: 5px;
   border-radius: 15px;
-  margin: 10px;
+  margin: 10px auto 10px auto;
 }
 
 .project-img {
@@ -210,8 +210,8 @@ a {
   border: solid 5px var(--lg);
   margin: 30px auto 30px auto;
   border-radius: 15px;
-  max-width: 400px;
-  max-height: 300px;
+  max-width: 500px;
+  max-height: 400px;
 }
 
 .project-img:hover {
@@ -222,8 +222,9 @@ a {
   background-color: var(--blue);
 }
 
-.link-text {
+.project-title {
   color: var(--off-white);
+  font-size: 2em;
   text-align: center;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
 }
