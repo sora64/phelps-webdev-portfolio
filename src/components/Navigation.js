@@ -9,7 +9,7 @@ function NavTabs({ currentPage, handlePageChange }) {
 
   return (
     <nav className="navbar" id="myTopnav">
-      <a href="/" className="logo">
+      <a href="/phelps-portfolio-yes-indeed/" className="logo">
         ALAN PHELPS
       </a>
       <ul className="nav-menu">
