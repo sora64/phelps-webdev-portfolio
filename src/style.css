@@ -40,7 +40,6 @@ body {
 
 .nav-item {
   margin-left: 10em;
-  font-size: 0.1rem;
 }
 
 .nav-link {
@@ -371,7 +370,7 @@ footer h2 {
   }
 
   .nav-link {
-    font-size: 4em;
+    font-size: 3em;
   }
 
   .section-header {
