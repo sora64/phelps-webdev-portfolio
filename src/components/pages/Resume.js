@@ -4,7 +4,7 @@ export default function Resume() {
   return (
     <section id="resume" className="section-alt">
       <article className="content">
-        <a href="https://docs.google.com/document/d/1CEZw2D5ndJFJqJXz7St1_fmOeJokTfL-jepKGyMavWw/edit?usp=sharing">
+        <a href="AlanPhelpsResume.pdf" download>
           <h2 className="section-header">Resume</h2>
         </a>
         <br/>
