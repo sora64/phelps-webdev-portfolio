@@ -7,7 +7,7 @@ export default function Contact() {
       <article className="content">
         <h2 className="section-header">Contact</h2>
         <br/>
-        <ContactForm />
+        {/* <ContactForm /> */}
         <article className="contact-address">
           <h3>Alan Phelps</h3>
           <br />
