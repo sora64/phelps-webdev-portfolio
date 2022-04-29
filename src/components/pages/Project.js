@@ -54,7 +54,7 @@ export default function Project() {
       <div className="wrapper">
         <div>
           <div className="project-title">{project.name}</div>
-          <a href={project.deployedUrl}>
+          <a href={project.deployedUrl} target="_blank">
             <img
               src={require(`../../../public/images/${project.pic}`)}
               alt={project.name}
