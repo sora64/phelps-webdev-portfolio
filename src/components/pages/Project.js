@@ -11,6 +11,12 @@ export default function Project() {
       GitHubUrl: "https://github.com/sora64/sk8spotter",
     },
     {
+      name: "phelpsBookSrchr",
+      pic: "phelpsBookSrchrScreenshot.png",
+      deployedUrl: "https://phelps-book-srchr.herokuapp.com/",
+      GitHubUrl: "https://github.com/sora64/phelpsBookSrchr"
+    },
+    {
       name: "Budget Tracker",
       pic: "budgetTrackerScreenshot.png",
       deployedUrl: "https://track-that-budget-baby.herokuapp.com/",
