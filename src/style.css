@@ -286,11 +286,6 @@ a {
   background-color: var(--db);
 }
 
-#resume h2:hover {
-  color: var(--off-white);
-  text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
-}
-
 /* Styling for the footer */
 footer {
   background: var(--db);
