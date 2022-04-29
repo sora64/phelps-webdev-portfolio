@@ -20,7 +20,7 @@ export default function Contact() {
           </p>
           <br />
           <p className="addresses">
-            GitHub: <a href="https://github.com/sora64" target="_blank">github.com/sora64</a>
+            GitHub: <a href="https://github.com/sora64" target="_blank">@sora64</a>
           </p>
           <br />
           <p className="addresses">
