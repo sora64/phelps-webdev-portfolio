@@ -20,11 +20,11 @@ export default function Contact() {
           </p>
           <br />
           <p className="addresses">
-            GitHub: <a href="https://github.com/sora64">github.com/sora64</a>
+            GitHub: <a href="https://github.com/sora64" target="_blank">github.com/sora64</a>
           </p>
           <br />
           <p className="addresses">
-            <a href="https://www.linkedin.com/in/alan-phelps-43ab57b6">
+            <a href="https://www.linkedin.com/in/alan-phelps-43ab57b6" target="_blank">
               LinkedIn Profile
             </a>
           </p>
