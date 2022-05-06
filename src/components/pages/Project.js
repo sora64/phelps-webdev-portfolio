@@ -5,6 +5,12 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 export default function Project() {
   const projectList = [
     {
+      name: "House Show",
+      pic: "",
+      deployedUrl: "https://house-show.herokuapp.com/",
+      GitHubUrl: "https://github.com/Haguermeister/House-show/tree/develop",
+    },
+    {
       name: "RVA Sk8Spotter",
       pic: "Sk8SpotterScreenshot.png",
       deployedUrl: "https://sk8spotter.herokuapp.com/",
@@ -14,7 +20,7 @@ export default function Project() {
       name: "phelpsBookSrchr",
       pic: "phelpsBookSrchrScreenshot.png",
       deployedUrl: "https://phelps-book-srchr.herokuapp.com/",
-      GitHubUrl: "https://github.com/sora64/phelpsBookSrchr"
+      GitHubUrl: "https://github.com/sora64/phelpsBookSrchr",
     },
     {
       name: "Budget Tracker",
