@@ -1,5 +1,5 @@
 import React from "react";
-import ContactForm from "./ContactForm";
+// import ContactForm from "./ContactForm";
 
 export default function Contact() {
   return (
@@ -20,11 +20,11 @@ export default function Contact() {
           </p>
           <br />
           <p className="addresses">
-            GitHub: <a href="https://github.com/sora64" target="_blank">@sora64</a>
+            GitHub: <a href="https://github.com/sora64" target="_blank" rel="noreferrer">@sora64</a>
           </p>
           <br />
           <p className="addresses">
-            <a href="https://www.linkedin.com/in/alan-phelps-43ab57b6" target="_blank">
+            <a href="https://www.linkedin.com/in/alan-phelps-43ab57b6" target="_blank" rel="noreferrer">
               LinkedIn Profile
             </a>
           </p>
