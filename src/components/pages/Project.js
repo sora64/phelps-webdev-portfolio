@@ -4,12 +4,12 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function Project() {
   const projectList = [
-    {
-      name: "House Show",
-      pic: "",
-      deployedUrl: "https://house-show.herokuapp.com/",
-      GitHubUrl: "https://github.com/Haguermeister/House-show/tree/develop",
-    },
+    // {
+    //   name: "House Show",
+    //   pic: "Sk8SpotterScreenshot.png",
+    //   deployedUrl: "https://house-show.herokuapp.com/",
+    //   GitHubUrl: "https://github.com/Haguermeister/House-show/tree/develop",
+    // },
     {
       name: "RVA Sk8Spotter",
       pic: "Sk8SpotterScreenshot.png",
