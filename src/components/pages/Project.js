@@ -8,7 +8,7 @@ export default function Project() {
       name: "House Show",
       pic: "houseShowScreenshot.png",
       deployedUrl: "https://house-show.herokuapp.com/",
-      GitHubUrl: "https://github.com/Haguermeister/House-show/tree/develop",
+      GitHubUrl: "https://github.com/Haguermeister/House-show/",
     },
     {
       name: "RVA Sk8Spotter",
