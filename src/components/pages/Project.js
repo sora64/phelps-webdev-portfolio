@@ -69,7 +69,7 @@ export default function Project() {
             />
           </a>
           <p className="deployment">
-            <a href={project.GitHubUrl}>
+            <a href={project.GitHubUrl} target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={faGithub} size="xl" />
             </a>
           </p>
