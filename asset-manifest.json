@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/phelps-portfolio-yes-indeed/static/css/main.b7f664a9.css",
-    "main.js": "/phelps-portfolio-yes-indeed/static/js/main.fba32519.js",
+    "main.js": "/phelps-portfolio-yes-indeed/static/js/main.fe31c71d.js",
     "static/js/787.8f134fd3.chunk.js": "/phelps-portfolio-yes-indeed/static/js/787.8f134fd3.chunk.js",
     "static/media/horiseon-marketing.jpg": "/phelps-portfolio-yes-indeed/static/media/horiseon-marketing.c672fcf0b6bd0c33ff16.jpg",
     "static/media/IMG_1153.JPG": "/phelps-portfolio-yes-indeed/static/media/IMG_1153.c752f342d50008446766.JPG",
@@ -29,6 +29,7 @@
     "static/media/taskMasterProScreenShot.png": "/phelps-portfolio-yes-indeed/static/media/taskMasterProScreenShot.95af41906f9e5bbe756a.png",
     "static/media/readmeGeneratorScreenshot.png": "/phelps-portfolio-yes-indeed/static/media/readmeGeneratorScreenshot.382667554220acd4a577.png",
     "static/media/phelpsTechBlogScreenshot.png": "/phelps-portfolio-yes-indeed/static/media/phelpsTechBlogScreenshot.19c2f21f692e366792db.png",
+    "service-worker.js": "/phelps-portfolio-yes-indeed/service-worker.js",
     "static/media/Coding Quiz Challenge pic.png": "/phelps-portfolio-yes-indeed/static/media/Coding Quiz Challenge pic.6021d6ced2ac573c3067.png",
     "static/media/robot-face.png": "/phelps-portfolio-yes-indeed/static/media/robot-face.0c8c11dd8d9b03ec3dd0.png",
     "static/media/noteTakerScreenshot.png": "/phelps-portfolio-yes-indeed/static/media/noteTakerScreenshot.ee123e1e6072de8ff535.png",
@@ -38,11 +39,11 @@
     "static/media/employeeTrackerScreenshot.png": "/phelps-portfolio-yes-indeed/static/media/employeeTrackerScreenshot.13ceffece2640a324938.png",
     "index.html": "/phelps-portfolio-yes-indeed/index.html",
     "main.b7f664a9.css.map": "/phelps-portfolio-yes-indeed/static/css/main.b7f664a9.css.map",
-    "main.fba32519.js.map": "/phelps-portfolio-yes-indeed/static/js/main.fba32519.js.map",
+    "main.fe31c71d.js.map": "/phelps-portfolio-yes-indeed/static/js/main.fe31c71d.js.map",
     "787.8f134fd3.chunk.js.map": "/phelps-portfolio-yes-indeed/static/js/787.8f134fd3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b7f664a9.css",
-    "static/js/main.fba32519.js"
+    "static/js/main.fe31c71d.js"
   ]
 }
