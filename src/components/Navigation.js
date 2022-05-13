@@ -1,42 +1,66 @@
 import React, { useState } from "react";
+import { MdClose } from "react-icons/md";
+import { FiMenu } from "react-icons/fi";
 
 function NavTabs({ currentPage, handlePageChange }) {
-  const [ focused, setFocused ] = useState(false);
+  const [focused, setFocused] = useState(false);
   let classes = "nav-link";
   if (focused) {
-    classes="green-text"
+    classes = "green-text";
   }
 
+  const [navbarOpen, setNavbarOpen] = useState(false);
+  const handleToggle = () => {
+    setNavbarOpen(!navbarOpen);
+  };
+
+  const closeMenu = () => {
+    setNavbarOpen(false);
+  };
+
   return (
-    <nav className="navbar" id="myTopnav">
-      <a href="/phelps-portfolio-yes-indeed/" className="logo">
-        ALAN PHELPS
-      </a>
-      <ul className="nav-menu">
-        <li className="nav-item">
+    <nav className="navbar navLinks" id="myTopnav">
+      <button onClick={handleToggle} className="hamburger">
+        {navbarOpen ? (
+          <MdClose style={{ color: "ffffff", width: "40px", height: "40px" }} />
+        ) : (
+          <FiMenu style={{ color: "#ffffff", width: "40px", height: "40px" }} />
+        )}
+      </button>{" "}
+      <ul className={`menuNav ${navbarOpen ? " showMenu" : ""}`}>
+        <li className="nav-item" key="about">
           <a
             href="#about"
-            onClick={() => handlePageChange("About")}
+            onClick={function () {
+              handlePageChange("About");
+              closeMenu();
+            }}
             className="nav-link"
             onFocus={() => setFocused(false)}
           >
             About Me
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item" key="portfolio">
           <a
             href="#work"
-            onClick={() => handlePageChange("Portfolio")}
+            onClick={function () {
+              handlePageChange("Portfolio");
+              closeMenu();
+            }}
             className="nav-link"
             onFocus={() => setFocused(false)}
           >
             Portfolio
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item" key="resume">
           <a
             href="#resume"
-            onClick={() => handlePageChange("Resume")}
+            onClick={function () {
+              handlePageChange("Resume");
+              closeMenu();
+            }}
             id="resumeNav"
             onFocus={() => setFocused(true)}
             className={classes}
@@ -44,10 +68,13 @@ function NavTabs({ currentPage, handlePageChange }) {
             Resume
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item" key="contact">
           <a
             href="#contact"
-            onClick={() => handlePageChange("Contact")}
+            onClick={function () {
+              handlePageChange("Contact");
+              closeMenu();
+            }}
             className="nav-link"
             onFocus={() => setFocused(false)}
           >
@@ -55,6 +82,9 @@ function NavTabs({ currentPage, handlePageChange }) {
           </a>
         </li>
       </ul>
+      <a href="/phelps-portfolio-yes-indeed/" className="logo">
+        ALAN PHELPS
+      </a>
     </nav>
   );
 }

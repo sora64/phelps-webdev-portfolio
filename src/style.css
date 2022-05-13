@@ -19,6 +19,60 @@ body {
   font-family: "Copperplate", Helvetica, sans-serif;
 }
 
+/* sidebar Nav */
+
+.navLinks {
+  position: relative;
+}
+
+.hamburger {
+  position: flex;
+  left: 40px;
+  top: 40px;
+  z-index: 10;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  border-radius: 10px;
+}
+
+.hamburger:hover {
+  background-color: var(--lg);
+}
+
+.menuNav {
+  overflow-y: scroll;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  background: var(--blue);
+  left: 0;
+  bottom: 0;
+  height: 50vh;
+  width: 0;
+  overflow: hidden;
+  max-width: 400px;
+  z-index: 9;
+  border-radius: 5px;
+}
+
+.menuNav.showMenu {
+  width: 100%;
+}
+
+a {
+  text-align: left;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.menuNav li:first-child {
+  margin-top: 7rem;
+}
+
 /* Styling for the header */
 .navbar {
   display: flex;
@@ -39,12 +93,8 @@ body {
   list-style-type: none;
 }
 
-.nav-item {
-  margin-left: 10em;
-}
-
 .nav-link {
-  font-size: 1.3rem;
+  font-size: 2rem;
   font-weight: 400;
   color: var(--off-white);
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
@@ -77,6 +127,7 @@ body {
 
 .logo {
   color: var(--off-white);
+  text-align: right;
   font-weight: 500;
   font-size: 1.5rem;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
@@ -188,7 +239,7 @@ a {
 
 .work-instructions {
   text-align: center;
-  color: var(--off-white)
+  color: var(--off-white);
 }
 
 /* Styling for the work section */
@@ -366,7 +417,7 @@ footer h2 {
   }
 
   .nav-link {
-    font-size: 3em;
+    font-size: 1.5rem;
   }
 
   .section-header {
