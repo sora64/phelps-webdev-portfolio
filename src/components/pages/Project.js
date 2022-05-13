@@ -56,24 +56,22 @@ export default function Project() {
   ];
 
   const projects = projectList.map((project) => (
-    <section className="projects">
-      <div className="wrapper">
-        <div>
-          <div className="project-title">{project.name}</div>
-          <a href={project.deployedUrl} target="_blank" rel="noreferrer">
-            <img
-              src={require(`../../../public/images/${project.pic}`)}
-              alt={project.name}
-              key={project.name}
-              className="project-img"
-            />
+    <section className="projects" key={project.name}>
+      <div className="project-wrapper">
+        <div className="project-title">{project.name}</div>
+        <a href={project.deployedUrl} target="_blank" rel="noreferrer">
+          <img
+            src={require(`../../../public/images/${project.pic}`)}
+            alt={project.name}
+            key={project.name}
+            className="project-img"
+          />
+        </a>
+        <p className="deployment">
+          <a href={project.GitHubUrl} target="_blank" rel="noreferrer" className="github">
+            <FontAwesomeIcon icon={faGithub} size="xl" />
           </a>
-          <p className="deployment">
-            <a href={project.GitHubUrl} target="_blank" rel="noreferrer">
-              <FontAwesomeIcon icon={faGithub} size="xl" />
-            </a>
-          </p>
-        </div>
+        </p>
       </div>
     </section>
   ));

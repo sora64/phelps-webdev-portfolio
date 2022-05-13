@@ -8,7 +8,7 @@
 :root {
   --fg: #039203c5;
   --lg: rgb(20, 236, 20);
-  --db: #161c6bee;
+  --db: #161c6b;
   --blue: #0d15a58f;
   --lb: rgba(26, 117, 175, 0.9);
   --off-white: rgb(247, 241, 241);
@@ -45,7 +45,7 @@ body {
   list-style: none;
   position: fixed;
   top: 0;
-  background: var(--blue);
+  background: var(--db);
   left: 0;
   bottom: 0;
   height: 50vh;
@@ -243,8 +243,12 @@ a {
 }
 
 /* Styling for the work section */
-.wrapper {
+.project-wrapper {
   text-align: center;
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+  vertical-align: top;
 }
 
 .projects {
@@ -257,7 +261,7 @@ a {
 }
 
 .project-img {
-  display: block;
+  /* display: block; */
   border: solid 5px var(--lg);
   margin: 30px auto 30px auto;
   border-radius: 15px;
@@ -278,6 +282,10 @@ a {
   font-size: 2em;
   text-align: center;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.deployment {
+  max-width: 50px;
 }
 
 /* Styling for the contact me section */
@@ -417,6 +425,10 @@ footer h2 {
   }
 
   .nav-link {
+    font-size: 1.5rem;
+  }
+
+  .green-text {
     font-size: 1.5rem;
   }
 
