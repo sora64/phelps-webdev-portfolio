@@ -3,10 +3,28 @@ import { MdClose } from "react-icons/md";
 import { FiMenu } from "react-icons/fi";
 
 function NavTabs({ currentPage, handlePageChange }) {
-  const [focused, setFocused] = useState(false);
-  let classes = "nav-link";
-  if (focused) {
-    classes = "green-text";
+  const [aboutFocused, setAboutFocused] = useState(false);
+  let aboutClass = "nav-link";
+  if (aboutFocused) {
+    aboutClass = "green-text";
+  }
+
+  const [portfolioFocused, setPortfolioFocused] = useState(false);
+  let portfolioClass = "nav-link";
+  if (portfolioFocused) {
+    portfolioClass = "green-text";
+  }
+
+  const [resumeFocused, setResumeFocused] = useState(false);
+  let resumeClass = "nav-link";
+  if (resumeFocused) {
+    resumeClass = "green-text";
+  }
+
+  const [contactFocused, setContactFocused] = useState(false);
+  let contactClass = "nav-link";
+  if (contactFocused) {
+    contactClass = "green-text";
   }
 
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -35,8 +53,13 @@ function NavTabs({ currentPage, handlePageChange }) {
               handlePageChange("About");
               closeMenu();
             }}
-            className="nav-link"
-            onFocus={() => setFocused(false)}
+            onFocus={function () {
+              setAboutFocused(true);
+              setPortfolioFocused(false);
+              setResumeFocused(false);
+              setContactFocused(false);
+            }}
+            className={aboutClass}
           >
             About Me
           </a>
@@ -48,8 +71,13 @@ function NavTabs({ currentPage, handlePageChange }) {
               handlePageChange("Portfolio");
               closeMenu();
             }}
-            className="nav-link"
-            onFocus={() => setFocused(false)}
+            onFocus={function () {
+              setAboutFocused(false);
+              setPortfolioFocused(true);
+              setResumeFocused(false);
+              setContactFocused(false);
+            }}
+            className={portfolioClass}
           >
             Portfolio
           </a>
@@ -62,8 +90,13 @@ function NavTabs({ currentPage, handlePageChange }) {
               closeMenu();
             }}
             id="resumeNav"
-            onFocus={() => setFocused(true)}
-            className={classes}
+            onFocus={function () {
+              setAboutFocused(false);
+              setPortfolioFocused(false);
+              setResumeFocused(true);
+              setContactFocused(false);
+            }}
+            className={resumeClass}
           >
             Resume
           </a>
@@ -75,8 +108,13 @@ function NavTabs({ currentPage, handlePageChange }) {
               handlePageChange("Contact");
               closeMenu();
             }}
-            className="nav-link"
-            onFocus={() => setFocused(false)}
+            onFocus={function () {
+              setAboutFocused(false);
+              setPortfolioFocused(false);
+              setResumeFocused(false);
+              setContactFocused(true);
+            }}
+            className={contactClass}
           >
             Contact
           </a>
