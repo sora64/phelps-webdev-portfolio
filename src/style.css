@@ -60,17 +60,9 @@ body {
   width: 100%;
 }
 
-/* a {
-  text-align: left;
-  display: block;
-  padding: 10px 20px;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
-} */
 
 .menuNav li:first-child {
-  margin-top: 7rem;
+  margin-top: 4rem;
 }
 
 /* Styling for the header */
