@@ -60,9 +60,8 @@ body {
   width: 100%;
 }
 
-
 .menuNav li:first-child {
-  margin-top: 4rem;
+  margin-top: 5.5rem;
 }
 
 /* Styling for the header */
