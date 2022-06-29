@@ -6,14 +6,14 @@ export default function Resume() {
       <article className="content">
         <h2 className="section-header">Resume</h2>
         <a
-          href="https://docs.google.com/document/d/1CEZw2D5ndJFJqJXz7St1_fmOeJokTfL-jepKGyMavWw/export?format=pdf"
+          href="https://docs.google.com/document/d/1VMR61Ro0s6gMaS_diw-S6FNiXXtsM7bHyn8IBBH4czs/edit?usp=sharing?format=pdf"
           download
         >
           <h4>Click here to download a copy of my resume.</h4>
         </a>
         <br />
         <iframe
-          src="https://docs.google.com/document/d/e/2PACX-1vQ4WB6vaijJYwn0uQKuLC2LpdmEd-RUTxUPvVjVOawJKfDhPWpuWHSy36cMvs9iQAP1D5phm3AljZ05/pub?embedded=true"
+          src="https://docs.google.com/document/d/1VMR61Ro0s6gMaS_diw-S6FNiXXtsM7bHyn8IBBH4czs/edit?usp=sharing?embedded=true"
           className="resume"
           title="myResume"
         ></iframe>
