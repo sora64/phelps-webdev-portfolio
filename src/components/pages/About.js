@@ -16,7 +16,7 @@ export default function About() {
             <p>
               My name is Alan Phelps, and I am a Latin teacher and a full-stack web developer. I have many years of working
               experience, from selling books to making coffee, from facilitating
-              a high ropes course to teaching Latin. I'm resourceful,
+              a high ropes course to teaching middle and high school students. I'm resourceful,
               inquisitive, and efficient. I hope you enjoy the projects I post here!
             </p>
           </article>
