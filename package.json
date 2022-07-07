@@ -1,8 +1,8 @@
 {
-  "name": "alan-phelps-portfolio",
+  "name": "phelps-portfolio-yes-indeed",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "http://sora64.github.io/phelps-portfolio-yes-indeed",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/free-brands-svg-icons": "^6.1.1",
