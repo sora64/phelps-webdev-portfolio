@@ -14,11 +14,10 @@ export default function About() {
           <article className="content">
             <h2 className="section-header">About Me</h2>
             <p>
-              My name is Alan Phelps, and I am a full-stack web developer. I have many years of working
+              My name is Alan Phelps, and I am a Latin teacher and a full-stack web developer. I have many years of working
               experience, from selling books to making coffee, from facilitating
               a high ropes course to teaching Latin. I'm resourceful,
-              inquisitive, and efficient. If you are a good employer looking for
-              a viable candidate for a web-development position, I'm your guy!
+              inquisitive, and efficient. I hope you enjoy the projects I post here!
             </p>
           </article>
         </div>
