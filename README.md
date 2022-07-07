@@ -1,4 +1,4 @@
-# alanPhelpsPortfolio
+# alan-phelps-portfolio
 
 ## Description
 
