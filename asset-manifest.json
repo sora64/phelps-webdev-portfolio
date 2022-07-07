@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.b2a851ab.css",
-    "main.js": "/static/js/main.a91cd7bb.js",
-    "static/js/787.1bebdb8b.chunk.js": "/static/js/787.1bebdb8b.chunk.js",
+    "main.js": "/static/js/main.b3a282bc.js",
+    "static/js/787.920d406d.chunk.js": "/static/js/787.920d406d.chunk.js",
     "static/media/horiseon-marketing.jpg": "/static/media/horiseon-marketing.c672fcf0b6bd0c33ff16.jpg",
     "static/media/IMG_1153.JPG": "/static/media/IMG_1153.c752f342d50008446766.JPG",
     "static/media/IMG_0422.jpeg": "/static/media/IMG_0422.414ae09d51144e2e1936.jpeg",
@@ -39,11 +39,11 @@
     "static/media/employeeTrackerScreenshot.png": "/static/media/employeeTrackerScreenshot.13ceffece2640a324938.png",
     "index.html": "/index.html",
     "main.b2a851ab.css.map": "/static/css/main.b2a851ab.css.map",
-    "main.a91cd7bb.js.map": "/static/js/main.a91cd7bb.js.map",
-    "787.1bebdb8b.chunk.js.map": "/static/js/787.1bebdb8b.chunk.js.map"
+    "main.b3a282bc.js.map": "/static/js/main.b3a282bc.js.map",
+    "787.920d406d.chunk.js.map": "/static/js/787.920d406d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b2a851ab.css",
-    "static/js/main.a91cd7bb.js"
+    "static/js/main.b3a282bc.js"
   ]
 }
