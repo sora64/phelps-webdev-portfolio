@@ -12,13 +12,20 @@ export default function About() {
             className="welcome-img"
           />
           <article className="content">
-            <h2 className="section-header">About Me</h2>
-            <p>
-              My name is Alan Phelps, and I am a Latin teacher and a full-stack web developer. I have many years of working
-              experience, from selling books to making coffee, from facilitating
-              a high ropes course to teaching middle and high school students. I'm resourceful,
-              inquisitive, and efficient. I hope you enjoy the projects I post here!
-            </p>
+            <h1 className="section-header">About Me</h1>
+            <h2 className="subsection-header">Summary</h2>
+            <p>Full Stack Web Developer with a background in Education, Classics, and Linguistics. Efficient, and adept at problem solving to develop user-friendly applications. Known for breadth of knowledge, ability to explain information in understandable ways, and for enjoying challenges.</p>
+            <h2 className="subsection-header">Technical Skills</h2>
+            <ul>
+              <li>
+                Languages: JavaScript ES6+, CSS3, HTML5, SQL, NoSQL</li>
+              <li>
+                Applications: GitHub, MongoDB, MySQL
+              </li>
+              <li>
+                Tools: Express.js, React.js, Node.js, Handlebars.js, jQuery, Bootstrap, Bulma
+              </li>
+            </ul>
           </article>
         </div>
       </div>

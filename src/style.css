@@ -111,10 +111,17 @@ body {
 
 .section-header {
   margin-top: 50px;
-  font-size: 6rem;
+  font-size: 5rem;
   text-align: center;
   padding: 35px auto 40px auto;
   color: var(--lg);
+}
+
+.subsection-header {
+  margin-top: 50px;
+  text-align: center;
+  padding: 35px auto 40px auto;
+  color: var(--db);
 }
 
 .logo {
@@ -227,6 +234,15 @@ a {
 
 .text-right {
   text-align: right;
+}
+
+.content ul {
+  color: var(--off-white);
+  list-style-type: none;
+}
+
+.content ul li {
+  margin: 1rem;
 }
 
 .work-instructions {
