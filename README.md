@@ -17,7 +17,7 @@ This application is to be used to see what projects I have completed as a web de
 
 ## Deployment
 
-Please click [this link](https://sora64.github.io/phelps-portfolio-yes-indeed/) to view my portfolio.
+Please click [this link](https://sora64.github.io/phelps-webdev-portfolio/) to view my portfolio.
 
 ## Screenshot
 ![React Portfolio screenshot](./public/images/phelpsReactPortfoliScreenshot.png)
