@@ -42,7 +42,7 @@ export default function Project() {
     {
       name: "Music You May Like",
       pic: "musicYouMayLikeScreenshot.png",
-      description: "This application allows users to discover new musical artists based on artists they already like, so they can learn more about music and artists outside their current music libraries.",
+      description: "This application uses front-end JavaScript and the YouTube and LastFM third party APIs to let users discover new musical artists by searching for artists they already like, so they can learn more about music and artists outside their current music libraries.",
       deployedUrl: "https://sora64.github.io/Music-You-May-Like/",
       GitHubUrl: "https://github.com/sora64/Music-You-May-Like",
     },
