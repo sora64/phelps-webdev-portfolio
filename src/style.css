@@ -277,6 +277,15 @@ a {
   text-overflow: clip;
 }
 
+.project-description {
+  margin-top: 1rem;
+  color: var(--off-white);
+  font-size: 1rem;
+  text-align: center;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  text-overflow: clip;
+}
+
 .deployment {
   max-width: 50px;
 }
