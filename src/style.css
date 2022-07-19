@@ -181,7 +181,7 @@ a {
 .welcome {
   font-style: oblique;
   font-size: 7rem;
-  color: rgb(27, 218, 68);
+  color: var(--lg);
   margin: 0 30px 30px 30px;
 }
 
@@ -245,12 +245,21 @@ a {
   margin: 1rem;
 }
 
-.work-instructions {
-  text-align: center;
-  color: var(--off-white);
+/* Styling for the work section */
+#portfolio {
+  background-image: url("../public/images/IMG_1153.JPG");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
+  margin: 0;
 }
 
-/* Styling for the work section */
+.work-instructions {
+  text-align: center;
+  color: var(--db);
+}
+
 .project-wrapper {
   text-align: center;
   display: inline-flex;
@@ -270,7 +279,7 @@ a {
 
 .project-img {
   /* display: block; */
-  border: solid 5px var(--lg);
+  border: solid 5px var(--db);
   margin: 30px auto 30px auto;
   border-radius: 15px;
   max-width: 500px;
@@ -278,7 +287,7 @@ a {
 }
 
 .project-img:hover {
-  border: solid 10px var(--lb);
+  border: solid 5px var(--fg);
 }
 
 .image-wrapper:hover {
