@@ -530,8 +530,7 @@ footer h2 {
   }
 
   #portfolio {
-    background-size: initial;
-    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .project-title {
