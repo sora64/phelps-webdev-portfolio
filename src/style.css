@@ -437,6 +437,10 @@ footer h2 {
     font-size: 5em;
   }
 
+  .welcome-img {
+    max-width: 80%;
+  }
+
   .section-header {
     display: block;
     position: relative;
