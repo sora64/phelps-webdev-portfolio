@@ -194,8 +194,8 @@ a {
   max-width: 20em;
   height: auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  border: solid 3px var(--fg);
-  border-radius: 25%;
+  border: solid 3px var(--db);
+  border-radius: 10%;
   margin: 0 30px 30px 30px;
 }
 
