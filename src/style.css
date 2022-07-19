@@ -530,6 +530,11 @@ footer h2 {
     font-size: 1.15rem;
   }
 
+  #portfolio {
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
+
   .project-title {
     font-size: 1em;
   }
