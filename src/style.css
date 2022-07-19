@@ -248,7 +248,6 @@ a {
 /* Styling for the work section */
 #portfolio {
   background-image: url("../public/images/IMG_1153.JPG");
-  background-size: fill;
   background-attachment: fixed;
   background-position: 100%;
   margin: 0;
@@ -531,7 +530,7 @@ footer h2 {
   }
 
   #portfolio {
-    background-size: auto;
+    background-size: initial;
     background-repeat: no-repeat;
   }
 
