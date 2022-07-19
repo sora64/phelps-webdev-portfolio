@@ -536,6 +536,10 @@ footer h2 {
     font-size: 1em;
   }
 
+  .project-link {
+    max-width: 97%;
+  }
+
   .link-text {
     font-size: 0.5em;
     display: inline-block;
