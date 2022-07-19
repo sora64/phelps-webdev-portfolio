@@ -373,7 +373,7 @@ a {
 
 #resume h4:hover {
   color: var(--lg);
-  text-shadow: 2px 1px var(--db);
+  text-shadow: 1px 1px var(--db);
 }
 
 .resume {
