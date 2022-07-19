@@ -4,11 +4,11 @@ import React from "react";
 export default function Contact() {
   return (
     <section id="contact-me">
-      <article className="content">
+      <article className="content section-alt">
         <h2 className="section-header">Contact</h2>
         <br/>
         <article className="contact-address">
-          <h3>Alan Phelps</h3>
+          <h3 className="my-name">Alan Phelps</h3>
           <br />
           <p className="addresses">Mail: P.O. Box 4496, Richmond, VA</p>
           <br />

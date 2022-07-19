@@ -15,7 +15,7 @@
 }
 
 body {
-  background-color: var(--fg);
+  background-color: var(--db);
   font-family: "Copperplate", Helvetica, sans-serif;
 }
 
@@ -113,16 +113,19 @@ body {
   margin-top: 50px;
   font-size: 5rem;
   text-align: center;
+  text-decoration: underline 3px dashed;
   padding: 35px auto 40px auto;
-  color: var(--lg);
+  text-shadow: 2px 1px var(--db);
+  color: var(--dg);
 }
 
 .subsection-header {
   margin-top: 50px;
   text-align: center;
   padding: 35px auto 40px auto;
-  color: var(--db);
   font-size: 4rem;
+  color: var(--off-white);
+  text-shadow: 2px 2px var(--db);
 }
 
 .logo {
@@ -147,34 +150,28 @@ a {
   text-decoration: none;
 }
 
-.section-alt {
-  background-color: var(--fg);
-  width: 100%;
-}
-
 .section-alt h2 {
   color: var(--db);
+  text-shadow: 2px 1px var(--fg);
 }
 
 /* Styling for the hero */
 .hero {
   background-image: url("../public/images/IMG_1153.JPG");
   background-size: cover;
-  background-position: center;
   background-attachment: fixed;
-  background-position: 80%;
   margin: 0;
 }
 
 .hero-welcome {
-  background-color: var(--lb);
+  background-color: var(--blue);
   padding: 5rem;
   width: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  border: solid 5px var(--fg);
+  border: solid 3px var(--fg);
   border-radius: 15px;
   text-align: center;
 }
@@ -183,6 +180,7 @@ a {
   font-style: oblique;
   font-size: 7rem;
   color: var(--lg);
+  text-shadow: 2px 1px var(--db);
   margin: 0 30px 30px 30px;
 }
 
@@ -212,6 +210,7 @@ a {
 .content p {
   color: var(--off-white);
   font-size: 2rem;
+  text-shadow: 2px 2px var(--db);
   margin-top: 1rem;
 }
 
@@ -250,15 +249,15 @@ a {
 #portfolio {
   background-image: url("../public/images/IMG_1153.JPG");
   background-size: cover;
-  background-position: center;
   background-attachment: fixed;
-  background-position: 80%;
+  background-position: 100%;
   margin: 0;
 }
 
 .work-instructions {
   text-align: center;
   color: var(--db);
+  text-shadow: 2px 1px var(--lb);
 }
 
 .project-wrapper {
@@ -275,20 +274,21 @@ a {
   justify-content: space-evenly;
   border: 5px;
   border-radius: 15px;
-  margin: 10px auto 10px auto;
+  margin: 1em auto 1em auto;
+  border: solid 3px var(--fg);
+  width: 85%;
 }
 
 .project-img {
-  /* display: block; */
   border: solid 5px var(--db);
   margin: 30px auto 30px auto;
   border-radius: 15px;
-  max-width: 500px;
-  max-height: 400px;
+  max-width: 80%;
+  max-height: 90%;
 }
 
 .project-img:hover {
-  border: solid 5px var(--fg);
+  border: solid 5px var(--lg);
 }
 
 .image-wrapper:hover {
@@ -299,16 +299,16 @@ a {
   color: var(--off-white);
   font-size: 2rem;
   text-align: center;
-  text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  text-shadow: 2px 2px var(--db);
   text-overflow: clip;
 }
 
 .project-description {
   margin-top: 1rem;
   color: var(--off-white);
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: center;
-  text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  text-shadow: 2px 1px var(--db);
   text-overflow: clip;
 }
 
@@ -317,18 +317,31 @@ a {
 }
 
 /* Styling for the contact me section */
+#contact-me {
+  background-image: url("../public/images/IMG_1153.JPG");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 100%;
+  margin: 0;
+}
+
 .contact-address {
   display: flex;
   flex-direction: column;
+  text-align: center;
   flex-wrap: wrap;
   color: var(--off-white);
   font-size: 25px;
   padding: 1em;
   margin: 10px auto 3px auto;
-  width: auto;
-  background-color: var(--lb);
-  border: solid 5px var(--fg);
-  border-radius: 10%;
+  width: 20em;
+  background-color: var(--blue);
+  border: solid 3px var(--fg);
+  border-radius: 7%;
+}
+
+.my-name {
+  text-shadow: 2px 1px var(--db);
 }
 
 .contact-address .addresses {
@@ -339,13 +352,30 @@ a {
 #resume {
   padding: 5em 0 15em 0;
   text-align: center;
+  background-image: url("../public/images/IMG_1153.JPG");
+  background-size: cover;
+  background-position: 95%;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+#resume h4 {
+  color: var(--db);
+  text-shadow: 2px 1px var(--lb);
+}
+
+#resume h4:hover {
+  color: var(--lg);
+  text-shadow: 2px 1px var(--db);
 }
 
 .resume {
   width: 50%;
   height: 50em;
   border: solid 5px var(--db);
+  border-radius: 1%;
   background-color: var(--db);
+  box-shadow: 2px 1px var(--fg);
 }
 
 /* Styling for the footer */
