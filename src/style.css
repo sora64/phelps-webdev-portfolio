@@ -248,7 +248,7 @@ a {
 /* Styling for the work section */
 #portfolio {
   background-image: url("../public/images/IMG_1153.JPG");
-  background-size: cover;
+  background-size: fill;
   background-attachment: fixed;
   background-position: 100%;
   margin: 0;
