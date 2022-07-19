@@ -68,13 +68,13 @@ export default function Project() {
       <div className="project-wrapper">
         <div className="project-title">{project.name}</div>
         <div className="project-description">{project.description}</div>
-        <a href={project.deployedUrl} target="_blank" rel="noreferrer">
+        <a href={project.deployedUrl} target="_blank" rel="noreferrer" className="project-link">
           <img
             src={require(`../../../public/images/${project.pic}`)}
             alt={project.name}
             key={project.name}
             className="project-img"
-          />
+          ></img>
         </a>
         <p className="deployment">
           <a href={project.GitHubUrl} target="_blank" rel="noreferrer" className="github">

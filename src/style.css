@@ -165,7 +165,7 @@ a {
 
 .hero-welcome {
   background-color: var(--blue);
-  padding: 5rem;
+  padding: 2.5rem;
   width: auto;
   display: flex;
   flex-direction: column;
@@ -191,8 +191,8 @@ a {
 }
 
 .welcome-img {
-  max-width: 40%;
-  max-height: 40%;
+  max-width: 35%;
+  max-height: auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border: solid 3px var(--db);
   border-radius: 10%;
@@ -260,14 +260,6 @@ a {
   text-shadow: 2px 1px var(--lb);
 }
 
-.project-wrapper {
-  text-align: center;
-  display: inline-flex;
-  align-items: center;
-  flex-direction: column;
-  vertical-align: top;
-}
-
 .projects {
   display: flex;
   flex-wrap: wrap;
@@ -279,12 +271,27 @@ a {
   width: 85%;
 }
 
+.project-wrapper {
+  text-align: center;
+  /* display: inline-flex; */
+  align-items: center;
+  flex-direction: column;
+  vertical-align: top;
+  display: flex;
+}
+
+.project-link {
+  margin: 30px;
+  align-self: center;
+  max-width: 60%;
+  max-height: auto;
+}
+
 .project-img {
   border: solid 5px var(--db);
-  margin: 30px auto 5px auto;
   border-radius: 15px;
-  max-width: 80%;
-  max-height: 90%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .project-img:hover {
@@ -430,10 +437,6 @@ footer h2 {
     font-size: 5em;
   }
 
-  .welcome-img {
-    max-width: 12em;
-  }
-
   .section-header {
     display: block;
     position: relative;
@@ -520,11 +523,6 @@ footer h2 {
 
   .project-title {
     font-size: 1em;
-  }
-
-  .projects img {
-    max-width: 200px;
-    max-height: 150px;
   }
 
   .link-text {
