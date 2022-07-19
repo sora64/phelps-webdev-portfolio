@@ -257,7 +257,7 @@ a {
 .work-instructions {
   text-align: center;
   color: var(--db);
-  text-shadow: 2px 1px var(--lb);
+  text-shadow: 1px 1px var(--lb);
 }
 
 .projects {
