@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/phelps-webdev-portfolio/static/css/main.db3f2ecd.css",
+    "main.css": "/phelps-webdev-portfolio/static/css/main.981ec0d4.css",
     "main.js": "/phelps-webdev-portfolio/static/js/main.df7c9f1c.js",
     "static/js/787.f36e468d.chunk.js": "/phelps-webdev-portfolio/static/js/787.f36e468d.chunk.js",
     "static/media/horiseon-marketing.jpg": "/phelps-webdev-portfolio/static/media/horiseon-marketing.c672fcf0b6bd0c33ff16.jpg",
@@ -38,12 +38,12 @@
     "static/media/passWordGenerator.png": "/phelps-webdev-portfolio/static/media/passWordGenerator.95a8234730ce17c66b57.png",
     "static/media/employeeTrackerScreenshot.png": "/phelps-webdev-portfolio/static/media/employeeTrackerScreenshot.13ceffece2640a324938.png",
     "index.html": "/phelps-webdev-portfolio/index.html",
-    "main.db3f2ecd.css.map": "/phelps-webdev-portfolio/static/css/main.db3f2ecd.css.map",
+    "main.981ec0d4.css.map": "/phelps-webdev-portfolio/static/css/main.981ec0d4.css.map",
     "main.df7c9f1c.js.map": "/phelps-webdev-portfolio/static/js/main.df7c9f1c.js.map",
     "787.f36e468d.chunk.js.map": "/phelps-webdev-portfolio/static/js/787.f36e468d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db3f2ecd.css",
+    "static/css/main.981ec0d4.css",
     "static/js/main.df7c9f1c.js"
   ]
 }
