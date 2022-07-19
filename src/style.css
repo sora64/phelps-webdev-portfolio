@@ -110,7 +110,7 @@ body {
 }
 
 .section-header {
-  margin-top: 10px;
+  margin-top: 1rem;
   font-size: 5rem;
   text-align: center;
   text-decoration: underline 3px dashed;
@@ -181,7 +181,7 @@ a {
   font-size: 7rem;
   color: var(--lg);
   text-shadow: 2px 1px var(--db);
-  margin: 0 30px 30px 30px;
+  margin: 1rem;
 }
 
 .hero-content {
@@ -196,7 +196,7 @@ a {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border: solid 3px var(--db);
   border-radius: 10%;
-  margin: 1em;
+  margin: 1rem;
 }
 
 /* Styling for all content sections */
