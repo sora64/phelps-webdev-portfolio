@@ -122,6 +122,7 @@ body {
   text-align: center;
   padding: 35px auto 40px auto;
   color: var(--db);
+  font-size: 4rem;
 }
 
 .logo {
@@ -191,13 +192,6 @@ a {
   flex-wrap: wrap;
 }
 
-.welcome-text {
-  margin-top: 1em;
-  font-size: 2.5em;
-  font-style: bold;
-  margin: 0 30px 30px 30px;
-}
-
 .welcome-img {
   max-width: 20em;
   height: auto;
@@ -217,6 +211,12 @@ a {
 
 .content p {
   color: var(--off-white);
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.content h2 {
+  font-size: 3rem;
 }
 
 .content h3 {
@@ -239,6 +239,7 @@ a {
 .content ul {
   color: var(--off-white);
   list-style-type: none;
+  font-size: 2rem;
 }
 
 .content ul li {
@@ -316,31 +317,6 @@ a {
 }
 
 /* Styling for the contact me section */
-.form {
-  border: solid 5px var(--fg);
-  border-radius: 10px;
-}
-
-.form-label {
-  color: var(--off-white);
-}
-
-.form-input {
-  border-radius: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 3px;
-}
-
-.form-button {
-  border-radius: 5px;
-  background-color: var(--lg);
-  font-weight: bold;
-  font-size: 1em;
-  margin-top: 20px;
-  padding: 5px;
-}
-
 .contact-address {
   display: flex;
   flex-direction: column;
@@ -403,6 +379,7 @@ footer h2 {
   .content h2 {
     text-align: center;
     padding-bottom: 25px;
+    font-size: 2.4rem;
   }
 
   .lt2 {
@@ -417,15 +394,39 @@ footer h2 {
     margin: auto;
   }
 
-  .hero-welcome h2 {
+  .welcome {
     display: block;
     position: relative;
+    font-size: 5em;
+  }
+
+  .welcome-img {
+    max-width: 12em;
+  }
+
+  .section-header {
+    display: block;
+    position: relative;
+    font-size: 3rem;
+  }
+
+  .section-alt h2 {
+    font-size: 3rem;
   }
 
   .hero-content p {
-    display: inline-block;
-    position: relative;
-    font-size: 2.2rem;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    text-align: left;
+  }
+
+  .hero-content ul {
+    font-size: 1.2rem;
+    text-align: left;
+  }
+
+  .hero-content ul li {
+    margin-top: 1.1rem;
   }
 
   #resume {
@@ -455,20 +456,36 @@ footer h2 {
     font-size: 1rem;
   }
 
+  .welcome {
+    display: block;
+    position: relative;
+    font-size: 3.8em;
+  }
+
   .section-header {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
+  }
+
+  .section-alt h2 {
+    font-size: 2.2rem;
   }
 
   .content {
     font-size: 1em;
   }
 
-  .welcome {
-    font-size: 2.5rem;
+  .hero-content h2 {
+    font-size: 1.9rem;
   }
 
-  .welcome-img {
-    max-width: 12em;
+  .hero-content p {
+    display: inline-block;
+    position: relative;
+    font-size: 1.15rem;
+  }
+
+  .hero-content ul {
+    font-size: 1.15rem;
   }
 
   .project-title {
@@ -496,13 +513,5 @@ footer h2 {
     width: auto;
     height: auto;
     font-size: 0.7em;
-  }
-
-  .lt1,
-  .lt2,
-  .lt3AndUp {
-    max-width: 200px;
-    max-height: 150px;
-    top: 36%;
   }
 }

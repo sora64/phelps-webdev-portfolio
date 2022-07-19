@@ -120,7 +120,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           </a>
         </li>
       </ul>
-      <a href="/phelps-portfolio-yes-indeed/" className="logo">
+      <a href="/phelps-webdev-portfolio/" className="logo">
         ALAN PHELPS
       </a>
     </nav>

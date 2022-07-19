@@ -23,7 +23,7 @@ export default function Contact() {
           </p>
           <br />
           <p className="addresses">
-            <a href="https://www.linkedin.com/in/alan-phelps-43ab57b6" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/phelps64" target="_blank" rel="noreferrer">
               LinkedIn Profile
             </a>
           </p>
