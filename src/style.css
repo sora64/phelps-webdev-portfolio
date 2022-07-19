@@ -191,7 +191,7 @@ a {
 }
 
 .welcome-img {
-  max-width: 35%;
+  max-width: 30%;
   max-height: auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border: solid 3px var(--db);
