@@ -531,7 +531,7 @@ footer h2 {
   }
 
   #portfolio {
-    background-attachment: scroll;
+    background-attachment: fixed;
   }
 
   .project-title {
