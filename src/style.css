@@ -318,6 +318,25 @@ a {
   text-overflow: clip;
 }
 
+.main-technologies {
+  color: var(--off-white);
+  text-align: center;
+  text-shadow: 2px 1px var(--db);
+  text-overflow: clip;
+  max-width: 90%;
+  margin-top: 1rem;
+}
+
+.main-technologies div {
+  font-size: 1.2rem;
+}
+
+.main-technologies li {
+  font-size: 1.1rem;
+  float: left;
+  padding: 5px;
+}
+
 .deployment {
   max-width: 50px;
 }
@@ -463,6 +482,12 @@ footer h2 {
 
   .hero-content ul li {
     margin-top: 1.1rem;
+  }
+
+  .main-technologies li {
+    font-size: 1.1rem;
+    float: none;
+    padding: 0;
   }
 
   .project-link {
