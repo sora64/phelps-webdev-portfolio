@@ -124,15 +124,6 @@ export default function Project() {
     <section className="projects" key={project.name}>
       <div className="project-wrapper">
         <div className="project-title">{project.name}</div>
-        <div className="project-description">{project.description}</div>
-        <ul className="main-technologies">
-          <div>Main Technologies Used:</div>
-          <li>• {project.technologiesUsed[0]}</li>
-          <li>• {project.technologiesUsed[1]}</li>
-          <li>• {project.technologiesUsed[2]}</li>
-          <li>• {project.technologiesUsed[3]}</li>
-          <li>• {project.technologiesUsed[4]}</li>
-        </ul>
         <a
           href={project.deployedUrl}
           target="_blank"
@@ -146,6 +137,15 @@ export default function Project() {
             className="project-img"
           ></img>
         </a>
+        <div className="project-description">{project.description}</div>
+        <ul className="main-technologies">
+          <div>Main Technologies Used:</div>
+          <li>• {project.technologiesUsed[0]}</li>
+          <li>• {project.technologiesUsed[1]}</li>
+          <li>• {project.technologiesUsed[2]}</li>
+          <li>• {project.technologiesUsed[3]}</li>
+          <li>• {project.technologiesUsed[4]}</li>
+        </ul>
         <p className="deployment">
           <a
             href={project.GitHubUrl}
