@@ -43,7 +43,7 @@ export default function Homepage() {
     const isLeftSwipe = distance > minSwipeDistance;
     const isRightSwipe = distance < -minSwipeDistance;
     // console.log(isLeftSwipe ? "left" : "right", "swipe");
-    if (isRightSwipe) {
+    if (isLeftSwipe) {
       if (currentPage === "About") {
         // console.log("Next: Portfolio");
         handlePageChange("Portfolio");
@@ -60,7 +60,7 @@ export default function Homepage() {
         // console.log("Next: About");
         handlePageChange("About");
       }
-    } else if (isLeftSwipe) {
+    } else if (isRightSwipe) {
       if (currentPage === "About") {
         // console.log("Last: Contact");
         handlePageChange("Contact");
