@@ -45,36 +45,36 @@ export default function Homepage() {
     // console.log(isLeftSwipe ? "left" : "right", "swipe");
     if (isLeftSwipe) {
       if (currentPage === "About") {
-        // console.log("Next: Portfolio");
+        // console.log("Last: Portfolio");
         handlePageChange("Portfolio");
       }
       if (currentPage === "Portfolio") {
-        // console.log("Next: Resume");
+        // console.log("Last: Resume");
         handlePageChange("Resume");
       }
       if (currentPage === "Resume") {
-        // console.log("Next: Contact");
+        // console.log("Last: Contact");
         handlePageChange("Contact");
       }
       if (currentPage === "Contact") {
-        // console.log("Next: About");
+        // console.log("Last: About");
         handlePageChange("About");
       }
     } else if (isRightSwipe) {
       if (currentPage === "About") {
-        // console.log("Last: Contact");
+        // console.log("Next: Contact");
         handlePageChange("Contact");
       }
       if (currentPage === "Portfolio") {
-        // console.log("Last: About");
+        // console.log("Next: About");
         handlePageChange("About");
       }
       if (currentPage === "Resume") {
-        // console.log("Last: Portfolio");
+        // console.log("Next: Portfolio");
         handlePageChange("Portfolio");
       }
       if (currentPage === "Contact") {
-        // console.log("Last: Resume");
+        // console.log("Next: Resume");
         handlePageChange("Resume");
       }
     }
