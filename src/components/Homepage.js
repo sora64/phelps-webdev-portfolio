@@ -42,8 +42,34 @@ export default function Homepage() {
     const distance = touchStart - touchEnd;
     const isLeftSwipe = distance > minSwipeDistance;
     const isRightSwipe = distance < -minSwipeDistance;
-    if (isLeftSwipe || isRightSwipe)
-      console.log("swipe", isLeftSwipe ? "left" : "right");
+    console.log(isLeftSwipe ? "left" : "right", "swipe");
+    if (isRightSwipe) {
+      if (currentPage === "About") {
+        console.log("Next: Portfolio");
+      }
+      if (currentPage === "Portfolio") {
+        console.log("Next: Resume");
+      }
+      if (currentPage === "Resume") {
+        console.log("Next: Contact");
+      }
+      if (currentPage === "Contact") {
+        console.log("Next: About");
+      }
+    } else if (isLeftSwipe) {
+      if (currentPage === "About") {
+        console.log("Last: Contact");
+      }
+      if (currentPage === "Portfolio") {
+        console.log("Last: About");
+      }
+      if (currentPage === "Resume") {
+        console.log("Last: Portfolio");
+      }
+      if (currentPage === "Contact") {
+        console.log("Last: Resume");
+      }
+    }
     // add your conditional logic here
   };
 
