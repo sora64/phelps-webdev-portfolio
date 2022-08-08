@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/phelps-webdev-portfolio/static/css/main.fd576130.css",
-    "main.js": "/phelps-webdev-portfolio/static/js/main.93448036.js",
+    "main.js": "/phelps-webdev-portfolio/static/js/main.52a6a25b.js",
     "static/js/787.f36e468d.chunk.js": "/phelps-webdev-portfolio/static/js/787.f36e468d.chunk.js",
     "static/media/horiseon-marketing.jpg": "/phelps-webdev-portfolio/static/media/horiseon-marketing.c672fcf0b6bd0c33ff16.jpg",
     "static/media/IMG_1153.JPG": "/phelps-webdev-portfolio/static/media/IMG_1153.c752f342d50008446766.JPG",
@@ -22,6 +22,7 @@
     "static/media/photoPortPicjpg.jpeg": "/phelps-webdev-portfolio/static/media/photoPortPicjpg.3af9e9608e4f7dc9f039.jpeg",
     "static/media/portfolioGeneratorScreenshot.png": "/phelps-webdev-portfolio/static/media/portfolioGeneratorScreenshot.2024b201cc916b7edfda.png",
     "static/media/gitItDoneScreenshot.png": "/phelps-webdev-portfolio/static/media/gitItDoneScreenshot.bcbc633aa8b13dff65cb.png",
+    "static/media/pythonNewsfeedScreenshot.png": "/phelps-webdev-portfolio/static/media/pythonNewsfeedScreenshot.d6d32e20d7de2933446a.png",
     "static/media/Taskinator Webpabe.png": "/phelps-webdev-portfolio/static/media/Taskinator Webpabe.2aa486eb134a6529244e.png",
     "static/media/WorkDaySchedulerScreenshot.png": "/phelps-webdev-portfolio/static/media/WorkDaySchedulerScreenshot.40867b8d6f626030925e.png",
     "static/media/budgetTrackerScreenshot.png": "/phelps-webdev-portfolio/static/media/budgetTrackerScreenshot.d9b4fba40f41a11e78a5.png",
@@ -39,11 +40,11 @@
     "static/media/employeeTrackerScreenshot.png": "/phelps-webdev-portfolio/static/media/employeeTrackerScreenshot.13ceffece2640a324938.png",
     "index.html": "/phelps-webdev-portfolio/index.html",
     "main.fd576130.css.map": "/phelps-webdev-portfolio/static/css/main.fd576130.css.map",
-    "main.93448036.js.map": "/phelps-webdev-portfolio/static/js/main.93448036.js.map",
+    "main.52a6a25b.js.map": "/phelps-webdev-portfolio/static/js/main.52a6a25b.js.map",
     "787.f36e468d.chunk.js.map": "/phelps-webdev-portfolio/static/js/787.f36e468d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fd576130.css",
-    "static/js/main.93448036.js"
+    "static/js/main.52a6a25b.js"
   ]
 }
