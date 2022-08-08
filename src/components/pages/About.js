@@ -18,7 +18,7 @@ export default function About() {
             <h2 className="subsection-header">Technical Skills</h2>
             <ul>
               <li>
-                Languages: JavaScript ES6+, CSS3, HTML5, SQL, NoSQL</li>
+                Languages: JavaScript ES6+, CSS3, HTML5, SQL, NoSQL, Python</li>
               <li>
                 Applications: GitHub, MongoDB, MySQL
               </li>

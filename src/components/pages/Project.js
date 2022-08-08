@@ -5,6 +5,21 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 export default function Project() {
   const projectList = [
     {
+      name: "Python Newsfeed",
+      pic: "pythonNewsfeedScreenshot.png",
+      description:
+        "This application provides users with a social media platform where they can create, update, comment on, and update posts containing links to the latest developments in tech, on a personal or public scale.",
+      technologiesUsed: [
+        "Python",
+        "Flask",
+        "Gunicorn",
+        "MySQL",
+        "SQLAlchemy",
+      ],
+      deployedUrl: "https://phelps-python-newsfeed.herokuapp.com/",
+      GitHubUrl: "https://github.com/sora64/python-newsfeed",
+    },
+    {
       name: "House Show",
       pic: "houseShowScreenshot.png",
       description:
