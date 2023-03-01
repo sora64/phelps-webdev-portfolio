@@ -374,7 +374,7 @@ a {
 
 /* Styling for the resume section */
 #resume {
-  padding: 5em 0 5em 0;
+  padding: 5em 0 15em 0;
   text-align: center;
   background-image: url("../public/images/IMG_1153.JPG");
   background-size: cover;
@@ -395,7 +395,7 @@ a {
 
 .resume {
   width: 50%;
-  height: 50em;
+  height: 43.5em;
   border: solid 5px var(--db);
   border-radius: 1%;
   background-color: var(--db);
