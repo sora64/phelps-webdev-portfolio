@@ -1,6 +1,6 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function Project() {
   const projectList = [
@@ -140,7 +140,7 @@ export default function Project() {
       <div className="project-wrapper">
         <div className="project-title">{project.name}</div>
         <a
-          href={project.deployedUrl}
+          href={project.GitHubUrl}
           target="_blank"
           rel="noreferrer"
           className="project-link"
@@ -161,7 +161,7 @@ export default function Project() {
           <li>• {project.technologiesUsed[3]}</li>
           <li>• {project.technologiesUsed[4]}</li>
         </ul>
-        <p className="deployment">
+        {/* <p className="deployment">
           <a
             href={project.GitHubUrl}
             target="_blank"
@@ -170,7 +170,7 @@ export default function Project() {
           >
             <FontAwesomeIcon icon={faGithub} size="xl" />
           </a>
-        </p>
+        </p> */}
       </div>
     </section>
   ));

@@ -1,0 +1,31 @@
+/* Styling for the contact me section */
+#contact-me {
+  background-image: url("../../public/images/IMG_1153.JPG");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 100%;
+  margin: 0;
+}
+
+.contact-address {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  flex-wrap: wrap;
+  color: var(--off-white);
+  font-size: 25px;
+  padding: 1em;
+  margin: 10px auto 3px auto;
+  width: 20em;
+  background-color: var(--blue);
+  border: solid 3px var(--fg);
+  border-radius: 7%;
+}
+
+.my-name {
+  text-shadow: 2px 1px var(--db);
+}
+
+.contact-address .addresses {
+  font-size: 1.5rem;
+}

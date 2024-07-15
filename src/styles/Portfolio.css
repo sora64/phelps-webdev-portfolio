@@ -1,0 +1,94 @@
+/* Styling for the work section */
+#portfolio {
+  background-image: url("../../public/images/IMG_1153.JPG");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 100%;
+  margin: 0;
+}
+
+.work-instructions {
+  text-align: center;
+  color: var(--db);
+  text-shadow: 1px 1px var(--lb);
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border: 5px;
+  border-radius: 15px;
+  margin: 1em auto 1em auto;
+  border: solid 3px var(--fg);
+  width: 85%;
+}
+
+.project-wrapper {
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  vertical-align: top;
+  display: flex;
+}
+
+.project-link {
+  margin: 30px;
+  align-self: center;
+  max-width: 65%;
+  max-height: auto;
+}
+
+.project-img {
+  border: solid 5px var(--db);
+  border-radius: 15px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.project-img:hover {
+  border: solid 5px var(--lg);
+}
+
+.image-wrapper:hover {
+  background-color: var(--blue);
+}
+
+.project-title {
+  color: var(--off-white);
+  font-size: 2rem;
+  text-align: center;
+  text-shadow: 2px 2px var(--db);
+  text-overflow: clip;
+}
+
+.project-description {
+  margin-top: 0.5rem;
+  color: var(--off-white);
+  font-size: 1.2rem;
+  text-align: center;
+  text-shadow: 2px 1px var(--db);
+  text-overflow: clip;
+}
+
+.main-technologies {
+  color: var(--off-white);
+  text-align: center;
+  text-shadow: 2px 1px var(--db);
+  text-overflow: clip;
+  margin-top: 1rem;
+}
+
+.main-technologies div {
+  font-size: 1.2rem;
+}
+
+.main-technologies li {
+  font-size: 1.1rem;
+  float: left;
+  padding: 5px;
+}
+
+.deployment {
+  max-width: 50px;
+}

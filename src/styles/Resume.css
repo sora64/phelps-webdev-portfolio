@@ -1,0 +1,44 @@
+/* Styling for the resume section */
+#resume {
+  padding: 5em 0 15em 0;
+  text-align: center;
+  background-image: url("../../public/images/IMG_1153.JPG");
+  background-size: cover;
+  background-position: 95%;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+#resume article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#resume h4 {
+  color: var(--db);
+  text-shadow: 1px 1px var(--lb);
+}
+
+#resume h4:hover {
+  color: var(--lg);
+  text-shadow: 1px 1px var(--db);
+}
+
+.resume-container {
+  width: 50%;
+  height: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume {
+  width: 100%;
+  height: 100%;
+  border: solid 5px var(--db);
+  border-radius: 1%;
+  background-color: var(--db);
+  box-shadow: 2px 1px var(--fg);
+}
