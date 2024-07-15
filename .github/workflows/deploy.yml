@@ -21,7 +21,7 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Build project
+    - name: Build and Deploy project
       run: npm run deploy
 
     - name: Deploy to GitHub Pages
