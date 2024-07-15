@@ -21,13 +21,13 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Build and Deploy project
-      run: npm run deploy
-
     - name: Configure Git
       run: |
         git config --global user.email "phelpsa64@gmail.com"
         git config --global user.name "sora64"
+
+    - name: Build and Deploy project
+      run: npm run deploy
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
