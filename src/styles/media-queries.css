@@ -32,13 +32,13 @@
     margin: auto;
   }
 
-  .welcome {
+  .hero-welcome .welcome {
     display: block;
     position: relative;
-    font-size: 5em;
+    font-size: 5rem;
   }
 
-  .welcome-img {
+  .hero-welcome .welcome-img {
     max-width: 50%;
   }
 
@@ -108,11 +108,11 @@
     font-size: 1rem;
   }
 
-  .welcome {
-    font-size: 2.9em;
+  .hero-welcome .welcome {
+    font-size: 2.9rem;
   }
 
-  .welcome-img {
+  .hero-welcome .welcome-img {
     max-width: 65%;
   }
 
