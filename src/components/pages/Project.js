@@ -5,6 +5,20 @@ import React from "react";
 export default function Project() {
   const projectList = [
     {
+      name: "Phelps React Portfolio",
+      pic: "phelpsReactPortfoliScreenshot.png",
+      description:"This is a web development portfolio for me, Alan Phelps, showcasing who I am and the work I have done on personal projects. I have more experience working for clients in a professional setting, but I cannot link to those projects due to confidentiality purposes, but I am happy to talk about the work I did within the guidelines I was given to do so.",
+      technologiesUsed: [
+        "React",
+        "GitHub Pages",
+        "GitHub Actions",
+        "Node.js",
+        "Service Worker"
+      ],
+      deployedUrl: "https://sora64.github.io/phelps-webdev-portfolio/#work/",
+      GitHubUrl: "https://github.com/sora64/phelps-webdev-portfolio",
+    },
+    {
       name: "Python Newsfeed",
       pic: "pythonNewsfeedScreenshot.png",
       description:
@@ -25,7 +39,7 @@ export default function Project() {
       description:
         "This application provides performing artists with a platform for seeking out and reserving venues, and provides venue hosts with a platform for booking artists.",
       technologiesUsed: [
-        "React.js",
+        "React",
         "GraphQL",
         "Node.js",
         "Express.js",
