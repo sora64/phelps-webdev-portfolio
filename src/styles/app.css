@@ -157,7 +157,7 @@ a {
 
 /* Styling for all content sections */
 .content {
-  font-size: 1.5em;
+  font-size: 1.75rem;
   color: var(--lg);
   margin: 5px auto 5px auto;
   width: 100%;

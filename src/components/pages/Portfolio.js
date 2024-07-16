@@ -8,9 +8,9 @@ export default function Work() {
       <article className="content">
         <h2 className="section-header">Portfolio</h2>
         <br />
-        <h5 className="work-instructions">
+        <h4 className="work-instructions">
           Click an image to reach the related application's GitHub repository.
-        </h5>
+        </h4>
         <br />
         <Project />
       </article>
