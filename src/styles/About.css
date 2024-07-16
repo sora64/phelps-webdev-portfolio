@@ -41,3 +41,56 @@
   border-radius: 10%;
   margin: 1rem;
 }
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  .welcome {
+    display: block;
+    position: relative;
+    font-size: 5rem;
+  }
+
+  .welcome-img {
+    max-width: 50%;
+  }
+
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    text-align: left;
+  }
+
+  .hero-content ul {
+    font-size: 1.2rem;
+    text-align: left;
+  }
+
+  .hero-content ul li {
+    margin-top: 1.1rem;
+  }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+  .hero-welcome .welcome {
+    font-size: 2.9rem;
+  }
+
+  .hero-welcome .welcome-img {
+    max-width: 65%;
+  }
+
+  .hero-content h2 {
+    font-size: 1.9rem;
+  }
+
+  .hero-content p {
+    display: inline-block;
+    position: relative;
+    font-size: 1.15rem;
+  }
+
+  .hero-content ul {
+    font-size: 1.15rem;
+  }
+}

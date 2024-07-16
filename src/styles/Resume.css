@@ -42,3 +42,25 @@
   background-color: var(--db);
   box-shadow: 2px 1px var(--fg);
 }
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  .resume-container {
+    height: 35rem;
+  }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  #resume {
+    max-height: 100px;
+  }
+
+  .scroll-instructions {
+    display: none;
+  }
+
+  .resume {
+    display: none;
+  }
+}

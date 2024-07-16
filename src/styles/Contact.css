@@ -29,3 +29,31 @@
 .contact-address .addresses {
   font-size: 1.5rem;
 }
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  .main-technologies li {
+    font-size: 1.1rem;
+    float: none;
+    padding: 0;
+  }
+
+  .project-link {
+    max-width: 90%;
+  }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+  .contact-address {
+    width: auto;
+    height: auto;
+    text-align: start;
+  }
+
+  .contact-address .addresses {
+    width: auto;
+    height: auto;
+    font-size: 0.7em;
+  }
+}

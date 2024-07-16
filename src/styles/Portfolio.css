@@ -92,3 +92,33 @@
 .deployment {
   max-width: 50px;
 }
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  .project-link {
+    max-width: 90%;
+  }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+  .project-title {
+    font-size: 1em;
+  }
+
+  .project-link {
+    max-width: 97%;
+  }
+
+  .contact-address {
+    width: auto;
+    height: auto;
+    text-align: start;
+  }
+
+  .contact-address .addresses {
+    width: auto;
+    height: auto;
+    font-size: 0.7em;
+  }
+}
