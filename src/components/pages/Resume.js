@@ -7,7 +7,7 @@ export default function Resume() {
       <article className="content">
         <h2 className="section-header">Resume</h2>
         <a
-          href="https://docs.google.com/document/d/1OAJ2WdjFO2L1Bn4rYp-_9N7vRfKRYO0VyWZZOHR_Lg4/export?format=pdf"
+          href="https://docs.google.com/document/d/1dpc3u5yFJxrkQmLU6KGUWtIL6tjGHA32pIb5mz0ukeg/export?format=pdf"
           download
         >
           <h4>
@@ -20,7 +20,7 @@ export default function Resume() {
         <br />
         <div className="resume-container">
           <iframe
-            src="https://docs.google.com/document/d/e/2PACX-1vQ6IYbzQSlE-UqP3-CZcxlM6cHB6wWfFcpBjUnNO1molLfEnE5UYNa1cw_8eKzQIH7IFlX_E4tZrdgz/pub?embedded=true"
+            src="https://docs.google.com/document/d/e/2PACX-1vR71-pwuPMXy9XBdrnpmNMiDj_gdX4awF82vIGI1h0_DH_eOBusaFuV9kQF2rE-1uVEzBwQY_X5Ys-E/pub?embedded=true"
             className="resume"
             title="myResume"
           ></iframe>
